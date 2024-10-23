@@ -7,6 +7,8 @@ import Markdown from "react-markdown";
 // @ts-expect-error - no types for this yet
 import { AssistantStreamEvent } from "openai/resources/beta/assistants/assistants";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
+import Image from 'next/image'
+
 
 type MessageProps = {
   role: "user" | "assistant" | "code";
@@ -249,7 +251,13 @@ const Chat = ({
   }
 
   return (
-    <div className={styles.chatContainer}>
+
+    
+  
+    <div className={styles.chatContainer}>  
+
+ 
+
       <div className={styles.messages}>
         {messages.map((msg, index) => (
           <Message key={index} role={msg.role} text={msg.text} />
