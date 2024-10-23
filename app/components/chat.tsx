@@ -252,7 +252,7 @@ const Chat = ({
     <div className={styles.chatContainer}>
       <div className={styles.messages}>
         {messages.map((msg, index) => (
-          <ś key={index} role={msg.role} text={msg.text} />
+          <Message key={index} role={msg.role} text={msg.text} />
         ))}
         <div ref={messagesEndRef} />
       </div>
