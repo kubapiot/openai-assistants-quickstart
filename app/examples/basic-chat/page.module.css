@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('/topvac_logo2014-bezdop.jpg'); /* Set the image as background */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-position: top left; /* Position the image in the top left corner */
 }
