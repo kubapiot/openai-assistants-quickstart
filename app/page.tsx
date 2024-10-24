@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <main className={styles.main}>
-      <div className={styles.title}>
+      {/* <div className={styles.title}>
         Explore sample apps built with Assistants API
       </div>
       <div className={styles.container}>
@@ -22,7 +22,7 @@ const Home = () => {
             {name}
           </a>
         ))}
-      </div>
+      </div> */}
     </main>
   );
 };
